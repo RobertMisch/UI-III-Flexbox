@@ -83,7 +83,7 @@ nav a{
 	text-decoration: none;
 }
 nav a:hover{
-
+	color:black;
 }
 /* splash section */
 .splash-container{
@@ -176,6 +176,7 @@ small{
 
 /* Services page */
 
+
 /* header after nav */
 .introbox{
 	display:flex;
@@ -211,7 +212,9 @@ width: 100%;
 	background-color: grey;
 	border: 2px solid darkgrey;
 }
-
+.infopanel h2{
+	font-size: large;
+}
 .infopanel button{
 	margin:3% 0;
 	background-color: lightgray;
@@ -238,15 +241,19 @@ width: 100%;
 	justify-content: space-around;
 	width: 46%;
 }
+.lastSectionElement h2{
+	font-size: x-large;
+}
 .lastSectionElement p{
 	display: block;
-	height: 30vh;
+	font-size: large;
 	font-weight: bold;
 	line-height: 2;
 }
 .lastSectionElement ul{
 	list-style-type: square;
-	margin-left: 3%;
+	margin-left: 3%;	
+	line-height: 3;
 }
 
 .lastSectionElement img{
