@@ -176,16 +176,80 @@ small{
 
 /* Services page */
 
+/* header after nav */
+.introbox{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+hr{
+	margin:2% 0;
+}
 .services-header-img{
 width: 100%;
 }
-
 .serviceHeader{
 	font-size: 30px;
 	text-align: left;
 }
 .header-text{
 	font-weight: bold;
-	letter-spacing: 100;
 	line-height: 2;
+}
+/* 2/3 grid of boxes */
+.panelcontainer{
+	display:flex;	
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.infopanel{
+	display: flex;
+	flex-direction: column;
+	padding: 2%;
+	margin: 2%;
+	width:46%;
+	background-color: grey;
+	border: 2px solid darkgrey;
+}
+
+.infopanel button{
+	margin:3% 0;
+	background-color: lightgray;
+	color: black;
+}
+.infopanel p{
+	font-weight: bold;
+	line-height: 2;
+}
+/* .buttonedit{
+	margin:3% 0;
+	background-color: lightgray;
+	color: black;
+} */
+
+/* footer work */
+.lastSectionContainer{
+	display: flex;
+	justify-content: space-around;
+}
+.lastSectionElement{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 46%;
+}
+.lastSectionElement p{
+	display: block;
+	height: 30vh;
+	font-weight: bold;
+	line-height: 2;
+}
+.lastSectionElement ul{
+	list-style-type: square;
+	margin-left: 3%;
+}
+
+.lastSectionElement img{
+	width: 100%;
+	align-content: center;
 }
